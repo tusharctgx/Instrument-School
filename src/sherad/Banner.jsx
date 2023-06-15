@@ -28,10 +28,7 @@ const Banner = () => {
                                 <img src="https://source.unsplash.com/100x400/?boy" className="h-full w-full" alt="" />
 
                             </div>
-                            <div className="md:w-20 w-10 h-60 md:h-96  overflow-hidden rounded-xl">
-                                <img src="https://source.unsplash.com/100x400/?women" className="h-full w-full" alt="" />
-
-                            </div>
+                           
                         </div>
 
                     </div>
