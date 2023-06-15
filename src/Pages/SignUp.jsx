@@ -1,3 +1,10 @@
+import React, { useContext } from 'react';
+import { useForm } from 'react-hook-form';
+import SocialLogin from '../sherad/SocialLogin';
+import { AuthContext } from '../provider/Authprovider';
+import Swal from 'sweetalert2';
+import { saveUserDB } from '../fetch/userfetch';
+import { Link, useNavigate } from 'react-router-dom';
 
 const SignUp = () => {
     const { register, handleSubmit,reset, formState: { errors } } = useForm();
